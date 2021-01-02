@@ -5,4 +5,6 @@
     <string name="temperature"> Temperature in your city now: x</string>
     <string name="buttonOk">Ok</string>
     <string name="urCity">Your city is </string>
+    <string name="moreInfo">get more info</string>
+    <string name="popularCities">Popular cities:<br/> Moscow <br/> Saint Petersburg <br/> x-city</string>
 </resources>

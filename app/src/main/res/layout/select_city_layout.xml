@@ -6,19 +6,20 @@
     android:layout_height="match_parent"
     android:background="@drawable/background_main">
 
-<com.google.android.material.textfield.TextInputEditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/textInputCity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/city"
-        android:textColorHint="@color/black"
         android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.264" />
+        app:layout_constraintVertical_bias="0.038" />
 
     <Button
         android:id="@+id/buttonInputCity"
@@ -26,10 +27,38 @@
         android:layout_height="wrap_content"
         android:text="@string/buttonOk"
         android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/checkBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toTopOf="@+id/textInputCity"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="111dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="3dp"
+        android:text="@string/moreInfo"
+        app:layout_constraintBottom_toBottomOf="@+id/textInputCity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toEndOf="@+id/textInputCity"
+        app:layout_constraintTop_toTopOf="@+id/textInputCity"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popularCities"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.059"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textInputCity"
-        app:layout_constraintVertical_bias="0.095" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonInputCity"
+        app:layout_constraintVertical_bias="0.021" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

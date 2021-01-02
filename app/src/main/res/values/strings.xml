@@ -4,4 +4,6 @@
     <string name="temperature">В данный момент в вашем городе: </string>
     <string name="buttonOk">Ok</string>
     <string name="urCity">Ваш город: </string>
+    <string name="moreInfo">получить дополнительную информацию.</string>
+    <string name="popularCities">Популярные города:<br/> Москва <br/> Санкт Питербург <br/> Город Х.</string>
 </resources>
