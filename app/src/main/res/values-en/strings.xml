@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">First App</string>
+    <string name="city">input city name.</string>
+    <string name="temperature"> Temperature in your city now: x</string>
+    <string name="buttonOk">Ok</string>
+    <string name="urCity">Your city is </string>
+    <string name="moreInfo">get more info</string>
+    <string name="popularCities">Popular cities:<br/> Moscow <br/> Saint Petersburg <br/> x-city</string>
+</resources>

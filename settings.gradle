@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "geekbrains A1L1 First App"
