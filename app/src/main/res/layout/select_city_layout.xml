@@ -36,8 +36,8 @@
 
     <CheckBox
         android:id="@+id/checkBoxMoreInfo"
-        android:layout_width="111dp"
-        android:layout_height="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         android:text="@string/moreInfo"
         app:layout_constraintBottom_toBottomOf="@+id/textInputCity"

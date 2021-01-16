@@ -16,6 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import static com.example.geekbrainsa1l1firstapp.choseCityLayout.checkBoxMoreInfoKey;
 import static com.example.geekbrainsa1l1firstapp.choseCityLayout.cityKey;
 
+
 public class MainActivity extends AppCompatActivity {
 
     TextView textViewCity;
