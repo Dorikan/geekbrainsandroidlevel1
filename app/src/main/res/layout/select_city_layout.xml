@@ -37,14 +37,11 @@
         android:id="@+id/checkBoxMoreInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="3dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:text="@string/moreInfo"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonInputCity"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textInputCity"
-        app:layout_constraintTop_toTopOf="@+id/buttonInputCity"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonInputCity" />
 
     <TextView
         android:id="@+id/textView"
@@ -54,10 +51,10 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonInputCity"
-        app:layout_constraintVertical_bias="0.021" />
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxMoreInfo"
+        app:layout_constraintVertical_bias="0.032" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
