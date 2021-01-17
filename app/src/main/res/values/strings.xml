@@ -5,5 +5,7 @@
     <string name="buttonOk">Ok</string>
     <string name="urCity">Ваш город: </string>
     <string name="moreInfo">получить дополнительную информацию.</string>
-    <string name="popularCities">Популярные города:<br/> Москва <br/> Санкт Питербург <br/> Город Х.</string>
+    <string name="popularCities">Популярные города:\nМосква\nСанкт Питербург\nГород Х.</string>
+    <string name="select_your_city">Выберите ваш город.</string>
+    <string name="pressure_on_city">давление в вашем городе: x</string>
 </resources>
