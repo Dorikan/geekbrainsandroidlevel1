@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">First App</string>
+    <string name="city">Введите название города, чтобы получить информацию о нём.</string>
+    <string name="temperature">В данный момент в вашем городе: </string>
+    <string name="buttonOk">Ok</string>
+    <string name="urCity">Ваш город: </string>
+    <string name="moreInfo">получить дополнительную информацию.</string>
+    <string name="select_your_city">Выберите ваш город.</string>
+    <string name="pressure_on_city">давление в вашем городе: x</string>
+    <string name="not_in_cities_array">Извините, у нас нет информации об этом городе. :(</string>
+    <string name="city_is_empty">Вы не указали город.</string>
+</resources>
