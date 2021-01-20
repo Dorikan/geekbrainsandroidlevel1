@@ -1,4 +1,7 @@
 package com.example.geekbrainsa1l1firstapp;
 
-public class dataContainer {
-}
+import java.io.Serializable;
+
+public class dataContainer implements Serializable {
+
+    }

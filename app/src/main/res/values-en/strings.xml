@@ -6,7 +6,8 @@
     <string name="buttonOk">Ok</string>
     <string name="urCity">Your city is </string>
     <string name="moreInfo">get more info</string>
-    <string name="popularCities">Popular cities:\nMoscow\nSaint Petersburg\nx-city</string>
     <string name="select_your_city">select your city</string>
     <string name="pressure_on_city">pressure on your city x</string>
+    <string name="not_in_cities_array">Sorry, we have not information about this city. :(</string>
+    <string name="city_is_empty">you did not specify the city</string>
 </resources>
