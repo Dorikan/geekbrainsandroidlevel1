@@ -10,4 +10,5 @@
     <string name="pressure_on_city">pressure on your city x</string>
     <string name="not_in_cities_array">Sorry, we have not information about this city. :(</string>
     <string name="city_is_empty">you did not specify the city</string>
+    <string name="expected_temperature">expected temperature: </string>
 </resources>
